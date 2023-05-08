@@ -1,15 +1,5 @@
 import React from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Tab,
-  Nav,
-  Image,
-  Form,
-  Button,
-  Badge,
-} from "react-bootstrap";
+import { Container, Row, Col, Tab, Nav, Image } from "react-bootstrap";
 import { useThemeHook } from "../GlobalComponents/ThemeProvider";
 import Heading from "../components/Heading";
 import profilePix from "../images/profile-picture.png";

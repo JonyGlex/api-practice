@@ -1,13 +1,5 @@
 import React, { useState } from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Button,
-  Form,
-  Spinner,
-  InputGroup,
-} from "react-bootstrap";
+import { Container, Row, Col, Button, Form, Spinner } from "react-bootstrap";
 import { useThemeHook } from "../GlobalComponents/ThemeProvider";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/high-res.css";
